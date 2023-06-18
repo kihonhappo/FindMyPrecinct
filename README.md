@@ -3,7 +3,7 @@
 I work for a county in Texas and I had a county resident call to find out which Justice of the Peace Precinct that they needed to contact. I had to use a large PDF file that was full of street names and other data set up in a table like format, it was a nightmare to find the residents address and then to determine which JP Precinct their address fell into. So I decided to use Google Maps Javascript API to create a prototype web application that I as well as residents could use to discover their JP Precinct. This is the Find My Precinct App.
  
 ## GIS Development Options
-- [ArcGIS[](https://www.arcgis.com/index.html)
+- [ArcGIS](https://www.arcgis.com/index.html)
 - [Google Maps](https://developers.google.com/maps)
 
 ## Software Description
