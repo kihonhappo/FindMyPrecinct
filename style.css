@@ -1,0 +1,22 @@
+
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map{
+    height: 80vw;
+    width: 80vw;
+    
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.icon{height: 50px; width: 50px;}
+.marker{width: 55%;}

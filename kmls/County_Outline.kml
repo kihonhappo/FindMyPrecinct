@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>County Outline</name>
+    <Style id="poly-A52714-4000-0-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>001427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-A52714-4000-0-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>001427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-A52714-4000-0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A52714-4000-0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A52714-4000-0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>County Boundary</name>
+      <styleUrl>#poly-A52714-4000-0-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -97.605984,31.586417,0
+              -97.430203,31.298193,0
+              -97.367032,31.233632,0
+              -96.779263,31.539612,0
+              -97.038815,31.870254,0
+              -97.605984,31.586417,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
